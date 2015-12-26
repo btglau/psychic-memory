@@ -14,7 +14,7 @@ The purpose of the code is to take the subject_ and y_ txt files and combine the
 * Group: Test or Train
 * Activity: Standing, Sitting, Laying, Walking, Walking_Downstairs, Walking_Upstairs
 
-The next 66 features are given as averages for each activity, because in the original dataset there many separate measures for, say, Subject 1 doing activity "Walking". t stands for data derived from time sampling, while f is for frequency based (fft) analysis. I did not attempt to make the names any more verbose. The numbers are normalized in the range [-1,1], in units of g (-9.81 m/s^2)
+The next 66 features are given as averages for each activity, because in the original dataset there many separate measures for, say, Subject 1 doing activity "Walking". t stands for data derived from time sampling, while f is for frequency based (fft) analysis - which I assume to mean the dominant frequency in a frequency spectrum. I did not attempt to make the names any more verbose. The numbers are normalized in the range [-1,1], in units of g (-9.81 m/s^2)
 
 * tBodyAcc-mean-X 
 * tBodyAcc-mean-Y 
