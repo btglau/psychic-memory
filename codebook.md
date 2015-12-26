@@ -82,3 +82,5 @@ The next 66 features are given as averages for each activity, because in the ori
 * fBodyBodyAccJerkMag-std 
 * fBodyBodyGyroMag-std 
 * fBodyBodyGyroJerkMag-std
+
+For a total of 69 columns (3 character rows + 66 measurements) and (30 subjects * 6 = 180) rows
