@@ -5,7 +5,9 @@ This codebook describes how the data is organized.
 The original data is split into three different files, additionally split across testing / training datasets:
 
 subject_[test/train].txt = the row index of subjects
+
 y_[test/train].txt = row index of activities (one of six)
+
 X_[test/train].txt = a matrix of 561 columns, which are features that the sensor collects
 
 The purpose of the code is to take the subject_ and y_ txt files and combine them with X_ into a dataset of columns. In the tidied up file, "X_avg.txt", the columns are as follows:
