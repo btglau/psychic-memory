@@ -5,6 +5,8 @@ This README file describes what occurs in run_analysis.R. In the .R file, each l
 
 For the script to work, place it in your working directory. In the same directory, please have the original dataset from the course assignment unzipped to a folder called "UCI HAR Dataset" (which is the default folder it should unzip to). The program creates a data file called "X_avg.txt" which is task 5 of the Course Project.
 
+--> This code requires the data.table and dplyr packages
+
 The program flow of the script is as follows:
 
 1. It creates paths to the relevant files
